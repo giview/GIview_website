@@ -1312,6 +1312,7 @@ mark,
   text-align: right;
 }
 .text-center {
+  text-align: center;
 }
 .text-justify {
   text-align: justify;
@@ -3839,7 +3840,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
-    text-align: center;
 }
 .nav > li {
   position: relative;
@@ -3949,18 +3949,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-bottom-color: #ffffff;
   }
 }
-.nav-pills > li {
-  float: left;
-    top: -1px;
-    left: 306px;
+
+.nav-pills {
+    text-align:center;
 }
+  
 .nav-pills > li > a {
   border-radius: 4px;
 }
 .nav-pills > li + li {
   margin-left: 2px;
-    top: -2px;
-    left: 432px;
 }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
@@ -3976,7 +3974,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: 0;
 }
 .nav-justified {
-  width: 100%;
+  width: 20%;
 }
 .nav-justified > li {
   float: none;
@@ -7162,8 +7160,8 @@ header .container {
 -------------------------------------------------------------- */
 .collapsing_header header {
   position: fixed;
-  top: -10;
-  left: 98;
+  top: 0;
+  left: 0;
   width: 100%;
   z-index: 10;
 }
